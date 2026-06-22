@@ -6,6 +6,7 @@ import {
   ShieldCheck,
   FileText,
   CalendarCheck,
+  Download,
 } from "lucide-react";
 
 const projects = [
@@ -276,6 +277,15 @@ function App() {
               >
                 <Code2 size={18} />
                 GitHub
+              </a>
+
+              <a
+                href="/Erwin_Rodrigo_Frontend_Developer_Resume.pdf"
+                download
+                className="inline-flex items-center gap-2 rounded-xl border border-white/10 px-6 py-3 font-semibold text-white hover:bg-white/10"
+              >
+                <Download size={18} />
+                Resume
               </a>
             </div>
           </div>
