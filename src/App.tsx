@@ -56,6 +56,7 @@ const skills = [
   "Flask",
   "Git",
   "GitHub",
+  "SQL"
 ];
 
 function App() {
