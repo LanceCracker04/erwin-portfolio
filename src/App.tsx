@@ -61,7 +61,7 @@ const skills = [
 
 function App() {
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-50">
+    <main className="page-enter min-h-screen bg-slate-950 text-slate-50">
       <nav className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/80 backdrop-blur-xl">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
           <a href="#" className="text-lg font-bold tracking-tight">
